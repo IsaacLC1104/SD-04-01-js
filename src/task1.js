@@ -4,9 +4,15 @@ const arr = []
 
 
 
+for (let index = 1; index <= 20; index++) {
+  arr.push(index);
+
+}
+
+
 // Escribe tu codigo por encima de esta linea
 
 //No tocar esta funcion
-export function taskArr(){
+export function taskArr() {
   return arr;
 }
